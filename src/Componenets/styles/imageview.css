@@ -1,0 +1,16 @@
+.home-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+}
+.learn-more {
+  padding: 10px;
+  border: solid 2px #99bc85;
+  border-radius: 30px;
+  background-color: transparent;
+}
+.home-img {
+  margin-top: 10px;
+}
