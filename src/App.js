@@ -1,15 +1,17 @@
-import './App.css';
-import Nav from './Componenets/Nav';
-import ImageView from './Componenets/imageview';
-import Stations from './Componenets/stations';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Componenets/Home/home.jsx';
+import Find_Stations from './Componenets/Find-Stations/findstations.jsx';
 
 function App() {
   return (
-    <div>
-      <Nav />
-      <ImageView/>
-      <Stations/>
-    </div>
+    <Router>
+      <Routes>
+          <Route path="/" element={<Home />} />
+        <Route path="/Find-Stations" element={<Find_Stations />} />
+      </Routes>
+    </Router>
+    
   );
 }
 

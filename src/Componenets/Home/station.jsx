@@ -1,6 +1,6 @@
 import React from "react";
 import './styles/station.css';
-import stimg from '../images/station-img1.jpeg';
+import stimg from './images/station-img1.jpeg';
 
 function Station(){
     return(

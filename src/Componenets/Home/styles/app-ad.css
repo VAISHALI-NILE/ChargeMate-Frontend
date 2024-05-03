@@ -1,0 +1,20 @@
+.app-ad {
+  display: flex;
+  flex-direction: row;
+  padding: 80px;
+  background-color: rgba(128, 255, 0, 0.322);
+}
+.store-btn {
+  padding: 20px;
+  font-size: medium;
+  margin: 10px;
+  border: none;
+  background-color: black;
+  color: aliceblue;
+}
+.left {
+  padding: 20px;
+}
+li {
+  list-style: none;
+}

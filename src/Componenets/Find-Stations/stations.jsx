@@ -5,8 +5,8 @@ import './styles/stations.css';
 function Stations(){
     return(
         <div className="stations">
-            <Station />
-            <Station />
+            <Station/>
+            <Station/>
             <Station/>
         </div>
     );

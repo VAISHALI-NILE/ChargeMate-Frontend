@@ -1,18 +1,19 @@
 import React from "react";
 import './styles/Nav.css';
-import searchimg from '../images/icons/search.png'
+import searchimg from './images/icons/search.png';
+import { Link } from "react-router-dom";
 function Nav()
 {
     return (
         <div className="navbar">
             <ul className="menu-bar">
                 <li>
-                    <a className="menu-nm logo" href="">ChargeMate</a>
+                    <Link className="menu-nm logo" to="/">ChargeMate</Link>
                 </li>
             </ul>
             <ul className="menu-bar">
                 <li>
-                    <a className="menu-nm" href="">EV Drivers</a>
+                    <Link className="menu-nm" to="/Find-Stations">EV Drivers</Link>
                 </li>
                 <li>
                     <a className="menu-nm" href="">Business</a>

@@ -1,8 +1,11 @@
 .container {
-  padding: 50px;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 30px;
 }
 .details {
   padding: 10px;
   border: 2px solid black;
   background-color: transparent;
+  color: black;
 }
