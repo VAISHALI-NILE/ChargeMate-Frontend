@@ -4,7 +4,7 @@ import './styles/searchbox.css';
 function SearchBox(){
     return(
         <>
-            <div className="header">
+            <div className="searchbox">
                 <h1>Find a Charger</h1>
                 <div className="bar">
                 <input className="box" type="text" placeholder="Search Location Here..." />
