@@ -1,6 +1,6 @@
 import React from "react";
 import './styles/Nav.css';
-import searchimg from './images/icons/search.png';
+import userimg from './images/icons/user-icon.png';
 import { Link } from "react-router-dom";
 function Nav()
 {
@@ -24,7 +24,7 @@ function Nav()
             </ul>
             <ul className="menu-bar">
                 <li>
-                    <Link to="/Customer-Profile" ><img className="search-icon" src={searchimg} alt="" /></Link>
+                    <Link to="/Customer-Profile" ><img className="search-icon" src={userimg} alt="" /></Link>
                 </li>
             </ul>
             

@@ -1,7 +1,5 @@
 .info-container {
   display: flex;
-  justify-content: space-around;
-  padding: 20px;
-  margin: 20px;
+  justify-content: center;
   margin-top: 100px;
 }

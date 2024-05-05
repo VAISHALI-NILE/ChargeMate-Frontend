@@ -2,10 +2,12 @@ import React from "react";
 import user from "./Images/user.png";
 import "../User/Styles/customer-style.css";
 import Footer from "../Home/footer.jsx";
+import Nav from "../Home/Nav.jsx"
 
 function CustomerProfile() {
   return (
     <>
+      <Nav/>
       <div className="main-container">
         <div className="inner-container">
           <div className="profile-data">
@@ -78,8 +80,9 @@ function CustomerProfile() {
             <h4>Cost</h4>
           </div>
         </div>
-        <Footer />
+        
       </div>
+      <Footer />
     </>
   );
 }

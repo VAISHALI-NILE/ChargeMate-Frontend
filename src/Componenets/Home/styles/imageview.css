@@ -12,11 +12,12 @@
   align-items: center;
 }
 .learn-more {
-  padding: 10px;
-  border: solid 2px #99bc85;
+  padding: 14px;
+  border: solid 2px #53ce98;
   border-radius: 30px;
-  background-color: transparent;
-  color: black;
+  background-color: #53ce98;
+  color: white;
+  font-size: medium;
 }
 .home-img {
   margin-top: 10px;
