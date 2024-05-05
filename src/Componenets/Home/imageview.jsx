@@ -1,5 +1,5 @@
 import React from "react";
-import stimg1 from './images/main-img.png';
+import stimg1 from './images/home-img2.jpg';
 import './styles/imageview.css';
 
 function ImageView(){

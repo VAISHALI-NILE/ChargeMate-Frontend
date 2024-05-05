@@ -16,7 +16,7 @@ function Nav()
                     <Link className="menu-nm" to="/Find-Stations">EV Drivers</Link>
                 </li>
                 <li>
-                    <a className="menu-nm" href="">Business</a>
+                    <Link className="menu-nm" to="/Business">Business</Link>
                 </li>
                 <li>
                     <a className="menu-nm" href="">About us</a>

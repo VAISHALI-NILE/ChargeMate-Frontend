@@ -8,7 +8,7 @@
 .search-btn > img {
   height: 25px;
 }
-.header {
+.searchbox {
   display: flex;
   flex-direction: column;
   justify-content: center;

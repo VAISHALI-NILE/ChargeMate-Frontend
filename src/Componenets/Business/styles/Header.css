@@ -1,0 +1,40 @@
+.add-station {
+  padding: 15px;
+  width: 30vw;
+  border: solid 2px whitesmoke;
+  z-index: 1;
+  background-color: transparent;
+  color: whitesmoke;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 40vh;
+  padding: 10%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    35,
+    28,
+    28,
+    0.3
+  ); /* Adjust opacity by changing the last value (0.5 in this case) */
+}
+.header-main {
+  background-image: url(/src/Componenets/Home/images/business-home-img.jpg);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header > p {
+  color: whitesmoke;
+  font-weight: bold;
+  z-index: 1;
+}

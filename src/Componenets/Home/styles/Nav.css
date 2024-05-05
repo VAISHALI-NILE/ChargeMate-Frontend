@@ -1,6 +1,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  z-index: 1;
 }
 .menu-bar {
   display: flex;
@@ -18,6 +19,7 @@
   list-style: none;
   margin: 20px;
   margin-left: 0px;
+  z-index: 1;
 }
 
 .search-icon {
