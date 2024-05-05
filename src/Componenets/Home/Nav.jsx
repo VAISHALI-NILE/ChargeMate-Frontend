@@ -24,7 +24,7 @@ function Nav()
             </ul>
             <ul className="menu-bar">
                 <li>
-                    <img className="search-icon" src={searchimg} alt="" />
+                    <Link to="/Customer-Profile" ><img className="search-icon" src={searchimg} alt="" /></Link>
                 </li>
             </ul>
             
