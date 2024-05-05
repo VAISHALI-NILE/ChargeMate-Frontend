@@ -1,0 +1,123 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.inner-container {
+  padding: 0 210px 10px 0px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  background: whitesmoke;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px black;
+}
+
+.profile-data {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.profileImg {
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.username {
+  text-align: center;
+  font-size: 15px;
+  text-transform: lowercase;
+  color: rgba(0, 0, 0, 0.606);
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.other-data {
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  color: rgba(0, 0, 0, 0.606);
+  font-weight: 700;
+  padding: 4px 40px 4px 8px;
+}
+
+.card-info {
+  display: flex;
+  margin-left: 30px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px black;
+  padding: 50px 60px;
+  background: whitesmoke;
+}
+
+.payment-methods {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 250px;
+  height: 120px;
+  gap: 15px;
+}
+
+.method {
+  font-weight: 500;
+  border-radius: 4px;
+  border: 1px solid black;
+  background: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.6s;
+}
+
+.method:hover {
+  cursor: pointer;
+  transform: scale(1.06);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.606);
+}
+
+.previous-bookings {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  width: 80%;
+  gap: 10px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px black;
+  padding: 70px 40px;
+  background: whitesmoke;
+  padding-top: 0;
+}
+
+.bookings {
+  border-radius: 8px;
+  border: 2px solid whitesmoke;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.404);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  justify-items: center;
+  font-weight: 500;
+  transition: transform 0.5s;
+}
+
+.station-img {
+  width: 50px;
+  height: 50px;
+}
+
+.bookings:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
