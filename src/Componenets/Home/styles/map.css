@@ -1,0 +1,19 @@
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+.map-container > p {
+  text-align: center;
+  font-size: large;
+}
+.map-discription {
+  padding-right: 80px;
+  padding-left: 80px;
+  margin-top: -80px;
+}
+.mapimg {
+  width: 45vw;
+}

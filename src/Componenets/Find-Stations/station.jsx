@@ -12,10 +12,10 @@ function Station(){
                 <li className="cost">75Rs/hr</li>
             </ul>
             <ul>
-                <li>Open 24 Hours</li>
+                <li>CCS</li> 
             </ul>
             <ul>
-                <li>CCS</li>
+                <li>Open 24 Hours</li>
                 <li>70.0kW</li>
             </ul>
             <p>It is a long established fact that a reader will be </p>
@@ -25,3 +25,8 @@ function Station(){
 }
 
 export default Station;
+
+
+
+
+

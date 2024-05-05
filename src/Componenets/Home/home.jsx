@@ -1,9 +1,10 @@
 import Nav from './Nav.jsx';
 import ImageView from './imageview.jsx';
-import Stations from './stations.jsx';
+import Infos from './Infos.jsx';
 import Footer from './footer.jsx';
 import Learn from './learn.jsx';
 import Appadd from './app-ad.jsx';
+import Map from './map.jsx';
 import React from 'react';
 
 function Home() {
@@ -11,7 +12,9 @@ function Home() {
     <div>
       <Nav />
       <ImageView/>
-      <Stations/>
+
+      <Infos/>
+      <Map/>
       <Learn/>
       <Appadd/>
       <Footer/>
