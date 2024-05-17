@@ -1,0 +1,27 @@
+.steps {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 30px;
+  margin: 30px;
+}
+.step {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.howtocharge-container {
+  padding: 30px;
+  text-align: center;
+}
+.step > h1 {
+  background-color: #53ce98;
+  border-radius: 50px;
+  padding: 20px;
+  color: white;
+  width: 45px;
+}

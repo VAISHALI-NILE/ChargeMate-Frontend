@@ -13,18 +13,20 @@ function Nav()
             </ul>
             <ul className="menu-bar">
                 <li>
-                    <Link className="menu-nm" to="/Find-Stations">EV Drivers</Link>
+                    <Link className="menu-nm" to="/Find-Stations">Find Charger</Link>
                 </li>
                 <li>
                     <Link className="menu-nm" to="/Business">Business</Link>
                 </li>
                 <li>
-                    <a className="menu-nm" href="">About us</a>
+                    <Link className="menu-nm" to="/About">About us</Link>
                 </li>
             </ul>
             <ul className="menu-bar">
-                <li>
-                    <Link to="/Customer-Profile" ><img className="search-icon" src={userimg} alt="" /></Link>
+                <li style={{color: "#53ce98"}} >
+                    {/* <Link to="/Vendor-Profile" ><img className="search-icon" src={userimg} alt="" /></Link> */}
+                    <Link to="/Customer-Profile" ><img className="search-icon" src={userimg} alt="" /></Link> 
+                    {/* <Link to="/login" >SignUp / Login</Link>*/}
                 </li>
             </ul>
             

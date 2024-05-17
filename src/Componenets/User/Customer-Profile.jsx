@@ -1,5 +1,6 @@
 import React from "react";
 import user from "./Images/user.png";
+import user2 from "../Home/images/potter.png"
 import "../User/Styles/customer-style.css";
 import Footer from "../Home/footer.jsx";
 import Nav from "../Home/Nav.jsx"
@@ -11,15 +12,15 @@ function CustomerProfile() {
       <div className="main-container">
         <div className="inner-container">
           <div className="profile-data">
-            <img className="profileImg" src={user} alt="profile-img" />
-            <div className="username">username</div>
+            <img className="profileImg" src={user2} alt="profile-img" />
+            <div className="username">Chosen-One</div>
           </div>
           <div className="other-data">
-            <div className="info">email</div>
-            <div className="info">name</div>
-            <div className="info">contact</div>
-            <div className="info">car info</div>
-            <div className="info">money spent</div>
+            <div className="info">harry@gmail.com</div>
+            <div className="info">Harry Potter</div>
+            <div className="info">+91 9867543210</div>
+            <div className="info">Toyota Innova Hycross</div>
+            <div className="info">570 RS</div>
           </div>
         </div>
 

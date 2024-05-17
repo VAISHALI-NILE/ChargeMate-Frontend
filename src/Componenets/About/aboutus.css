@@ -1,0 +1,61 @@
+.about-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 10%;
+  background-color: #f9f9f9;
+  font-family: "Arial", sans-serif;
+}
+
+.about-page h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.about-page p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 800px;
+}
+
+.about-page .mission {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.about-page .team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-page .team-member {
+  margin: 20px;
+  text-align: center;
+}
+
+.about-page .team-member img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.about-page .team-member h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.about-page .team-member p {
+  font-size: 1rem;
+  color: #666;
+}

@@ -22,18 +22,15 @@ function Footer() {
         <div class="footer-left">
           <p class="footer-links">
             <a class="link-1" href="#">
-              Home
+              HOME
             </a>
 
-            <a href="#">Blog</a>
 
-            <a href="#">Pricing</a>
+            <a href="#">ABOUT</a>
 
-            <a href="#">About</a>
+            <a href="#">FAQ</a>
 
-            <a href="#">Faq</a>
-
-            <a href="#">Contact</a>
+            <a href="#">CONTACT</a>
           </p>
 
           <p>ChargeMate &copy; 2024</p>

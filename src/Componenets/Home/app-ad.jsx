@@ -1,5 +1,7 @@
 import React from "react";
 import './styles/app-ad.css';
+import appimg from "./images/app-img.png";
+
 function Appadd(){
     return(
         <>
@@ -15,7 +17,7 @@ function Appadd(){
                     <button className="store-btn">Play Store</button>
                 </div>
                 <div className="right">
-                    <img src="" alt="" />
+                    <img src={appimg} alt="" />
                 </div>
             </div>
         </>

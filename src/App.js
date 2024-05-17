@@ -4,6 +4,10 @@ import Home from "./Componenets/Home/home.jsx";
 import Find_Stations from "./Componenets/Find-Stations/findstations.jsx";
 import Business from "./Componenets/Business/business.jsx";
 import CustomerProfile from "./Componenets/User/Customer-Profile.jsx";
+import Howtocharge from "./Componenets/howtocharge/howtocharge.jsx";
+import AboutUs from "./Componenets/About/aboutus.jsx";
+import VendorProfile from "./Componenets/User/Vendor-Profile.jsx";
+import Login from "./Componenets/Login-signup/login.jsx";
 
 function App() {
   return (
@@ -12,7 +16,12 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/Business" element={<Business />} />
         <Route path="/Find-Stations" element={<Find_Stations />} />
+        <Route path="/About" element={<AboutUs/>}/>
         <Route path="/Customer-Profile" element={<CustomerProfile />} />
+        <Route path="/Vendor-Profile" element={<VendorProfile />} />
+        <Route path="/howtocharge" element={<Howtocharge />} />
+        <Route path="/login" element={<Login />} />
+
       </Routes>
     </Router>
   );

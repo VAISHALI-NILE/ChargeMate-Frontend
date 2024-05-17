@@ -7,8 +7,6 @@ function Infos(){
         <div className="Infos">
             <div className="info-container">
             <Info/>
-            <Info/>
-            <Info/>
             </div>
 
         </div>

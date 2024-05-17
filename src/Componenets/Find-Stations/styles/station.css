@@ -33,3 +33,10 @@ ul {
 .cost {
   color: #53ce98;
 }
+.st-img {
+  width: 300px;
+  height: 300px;
+}
+.loc {
+  width: 28px;
+}

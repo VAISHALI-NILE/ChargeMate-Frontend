@@ -7,7 +7,7 @@
 .store-btn {
   padding: 20px;
   font-size: medium;
-  margin: 10px;
+  margin-right: 10px;
   border: none;
   background-color: black;
   color: aliceblue;
@@ -17,4 +17,17 @@
 }
 li {
   list-style: none;
+}
+.left > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.right > img {
+  width: 60%;
+}
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
