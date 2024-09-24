@@ -13,7 +13,7 @@ function VendorProfile() {
   useEffect(() => {
     const fetchStations = async () => {
       // Replace with actual API call
-      const response = await fetch('http://localhost:5038/Backend/test/stations/');
+      const response = await fetch('https://chargemate-backend-1.onrender.com/Backend/test/stations/');
       const data = await response.json();
       setStations(data);
     };
