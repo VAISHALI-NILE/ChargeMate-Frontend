@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './styles/station.css';
+import errorimg from "../Home/images/station-img.jpg"
 import loc from '../Home/images/icons/location.png';
 
 function Station({ station }) {
@@ -15,7 +16,7 @@ function Station({ station }) {
                 {/* {notes.map(note =>
                     <p key={note.id}>{note.Place_name}</p>
                 )} */}
-                <img className="st-img" src={station.Featured_Image} alt="" />
+                <img className="st-img" src={station.Featured_Image}  alt="" />
                 <h2 key={station.id}>{station.Place_name}</h2>
             </div>
             <ul>
@@ -31,9 +32,6 @@ function Station({ station }) {
                 <li>70.0kW</li>
             </ul>
             <p>{station.Phone}</p>
-            <button className="book" onClick={() => {
-                console.log("hiiiiiiiiiiii")
-            }}>Book Now</button>
         </div>
     );
 }

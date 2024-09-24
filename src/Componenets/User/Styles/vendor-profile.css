@@ -2,23 +2,36 @@
   display: none;
 }
 
-.main-container {
+.vendor-bg {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  background-color: white;
 }
 
-.inner-container {
-  padding: 0 210px 10px 0px;
+.vendor-pr {
+  padding: 0 10px 10px 0px;
   margin: 20px;
   display: flex;
+  width: 90%;
   flex-direction: row;
-  background: white;
-  border-radius: 20px;
-  box-shadow: 2px 2px 8px #53ce98;
+  background: whitesmoke;
+  border-radius: 5px;
 }
-
+.extra-data {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 150px;
+}
+.extra-data > div {
+  background-color: #53ce98;
+  padding: 10px;
+  width: 250px;
+  height: 120px;
+  border-radius: 8px;
+  text-align: center;
+}
 .profile-data {
   display: flex;
   justify-content: center;
@@ -87,30 +100,33 @@
   transform: scale(1.06);
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.606);
 }
-
-.previous-bookings {
+.st_tr {
+  display: flex;
+  flex-direction: row;
+}
+.vendor-stations {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  width: 80%;
+  grid-template-columns: 1fr;
+  width: 90%;
   gap: 10px;
   margin: 20px;
   border-radius: 20px;
-  box-shadow: 2px 2px 8px #53ce98;
   padding: 70px 40px;
   background: white;
   padding-top: 0;
 }
 
-.bookings {
-  border-radius: 8px;
-  border: 2px solid #53ce98;
-  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.404);
+.transactions {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  align-items: center;
-  justify-items: center;
-  font-weight: 500;
-  transition: transform 0.5s;
+  grid-template-columns: 1fr;
+  width: 30%;
+  gap: 10px;
+  margin: 20px;
+  border-radius: 20px;
+
+  padding: 70px 40px;
+  background: white;
+  padding-top: 0;
 }
 
 .station-img {
@@ -118,12 +134,12 @@
   height: 50px;
 }
 
-.bookings:hover {
+.st:hover {
   cursor: pointer;
   transform: scale(1.02);
 }
 
-.previous-bookings > h4 {
+.vendor-stations > h4 {
   color: #53ce98;
 }
 
@@ -168,34 +184,37 @@
   color: #333;
 }
 
-.previous-bookings {
+.vendor-stations {
   margin-top: 20px;
 }
 
-.previous-bookings h4 {
+.vendor-stations h4 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
-.bookings {
+.st {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: #fff;
+  padding: 30px;
+  background-color: rgba(128, 128, 128, 0.217);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
 }
+.st-data {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
 
 .station-img {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 100%;
   object-fit: cover;
   margin-right: 20px;
 }
-
+.st-nm {
+  color: #53ce98;
+}
 .remove-button {
   background-color: #f44336;
   color: white;

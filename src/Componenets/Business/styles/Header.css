@@ -32,7 +32,19 @@
   font-weight: bold;
   z-index: 1;
 }
-
-.second > div {
+.second > div > li {
+  font-size: larger;
+  margin: 10px;
+}
+.second {
   background-color: #53ce98;
+  padding: 60px;
+  gap: 400px;
+  display: flex;
+  flex-direction: row;
+}
+.second > div > img {
+  width: 150px;
+  align-self: flex-end;
+  justify-self: flex-end;
 }

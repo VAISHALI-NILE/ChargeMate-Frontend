@@ -1,7 +1,8 @@
 import React from 'react';
 import './aboutus.css';
 import Nav from '../Home/Nav';
-import user from "../User/Images/user.png"
+import user from "../Home/images/vaish.jpg"
+import user2 from "../Home/images/mani.jpg"
 import Footer from '../Home/footer';
 
 const AboutUs = () => {
@@ -25,7 +26,7 @@ const AboutUs = () => {
                     <p>Founder</p>
                 </div>
                 <div className="team-member">
-                    <img src={user} alt="Team Member 2" />
+                    <img src={user2} alt="Team Member 2" />
                     <h3>Manisha Pendharkar</h3>
                     <p>CO-Founder</p>
                 </div>

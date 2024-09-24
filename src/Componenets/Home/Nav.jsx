@@ -24,9 +24,9 @@ function Nav()
             </ul>
             <ul className="menu-bar">
                 <li style={{color: "#53ce98"}} >
-                    {/* <Link to="/Vendor-Profile" ><img className="search-icon" src={userimg} alt="" /></Link> */}
-                    <Link to="/Customer-Profile" ><img className="search-icon" src={userimg} alt="" /></Link> 
-                    {/* <Link to="/login" >SignUp / Login</Link>*/}
+                    <Link to="/Vendor-Profile" ><img className="search-icon" src={userimg} alt="" /></Link>
+                    {/* <Link to="/Customer-Profile" ><img className="search-icon" src={userimg} alt="" /></Link>  */}
+                    {/* <Link to="/Login" >SignUp / Login</Link> */}
                 </li>
             </ul>
             

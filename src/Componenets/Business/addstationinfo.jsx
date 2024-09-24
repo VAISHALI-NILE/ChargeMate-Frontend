@@ -25,41 +25,7 @@ const AddStationInfoPage = () => {
                     <li>Your new charging station will be added to the ChargeMate network.</li>
                 </ol>
             </section>
-            <section>
-                <h2>Example Form</h2>
-                <p>Below is an example form that you would fill out to add a new charging station:</p>
-                <form className="add-station-form">
-                    <label>
-
-                        <input type="text" placeholder="Enter station name" required />
-                    </label>
-                    <label>
-
-                        <input type="text" placeholder="Enter location" required />
-                    </label>
-                    <label>
-                        
-                        <input type="number" placeholder="Enter latitude" step="any" required />
-                    </label>
-                    <label>
-       
-                        <input type="number" placeholder="Enter longitude" step="any" required />
-                    </label>
-                    <label>
-
-                        <input type="number" placeholder="Enter rate" required />
-                    </label>
-                    <label>
-      
-                        <input type="text" placeholder="Enter charger type" required />
-                    </label>
-                    <label>
-
-                        <input type="number" placeholder="Enter power(kW)" required />
-                    </label>
-                    <button type="submit">Add Station</button>
-                </form>
-            </section>
+            
             <br />
             <br />
             <p>Join our network and help create a seamless EV charging experience for users.Add your charging station to ChargeMate. Ensure all details are accurate to provide the best service to our users. </p>

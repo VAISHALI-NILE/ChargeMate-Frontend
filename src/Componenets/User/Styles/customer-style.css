@@ -2,21 +2,19 @@
   display: none;
 }
 
-.main-container {
+.cust-container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  background-color: white;
 }
 
-.inner-container {
-  padding: 0 210px 10px 0px;
+.cust-inner-container {
   margin: 20px;
+  width: 90%;
   display: flex;
-  flex-direction: row;
-  background: white;
-  border-radius: 20px;
-  box-shadow: 2px 2px 8px #53ce98;
+  background: whitesmoke;
 }
 
 .profile-data {
@@ -90,22 +88,20 @@
 
 .previous-bookings {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   width: 80%;
   gap: 10px;
   margin: 20px;
   border-radius: 20px;
-  box-shadow: 2px 2px 8px #53ce98;
   padding: 70px 40px;
-  background: white;
+
   padding-top: 0;
 }
 
 .bookings {
   border-radius: 8px;
-  border: 2px solid #53ce98;
-  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.404);
   display: grid;
+  background-color: whitesmoke;
   grid-template-columns: repeat(5, 1fr);
   align-items: center;
   justify-items: center;

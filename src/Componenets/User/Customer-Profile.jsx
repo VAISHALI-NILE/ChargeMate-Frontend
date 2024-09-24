@@ -1,6 +1,6 @@
 import React from "react";
-import user from "./Images/user.png";
-import user2 from "../Home/images/potter.png"
+import user2 from "../Home/images/potter.png";
+import user from "../Home/images/station-img.jpg"
 import "../User/Styles/customer-style.css";
 import Footer from "../Home/footer.jsx";
 import Nav from "../Home/Nav.jsx"
@@ -9,8 +9,8 @@ function CustomerProfile() {
   return (
     <>
       <Nav/>
-      <div className="main-container">
-        <div className="inner-container">
+      <div className="cust-container">
+        <div className="cust-inner-container">
           <div className="profile-data">
             <img className="profileImg" src={user2} alt="profile-img" />
             <div className="username">Chosen-One</div>
@@ -24,14 +24,6 @@ function CustomerProfile() {
           </div>
         </div>
 
-        <div className="card-info">
-          <div className="payment-methods">
-            <div className="method">UPI</div>
-            <div className="method">CARD</div>
-            <div className="method">Net banking</div>
-            <div className="method">other</div>
-          </div>
-        </div>
 
         <div className="previous-bookings">
           <h4>Previous Bookings</h4>
